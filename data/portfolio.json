@@ -8,11 +8,11 @@
       "skill": "html / scss / jQuery / fullpage js / gsap ...",
       "period": "1weeks",
       "category": "web",
-      "link": "https://jjang051.github.io/dkg/html/index.html"
+      "link": "https://soonla.github.io/dkg/html"
     },
     {
       "img": "hitop.png",
-      "title": "hitop CLONE CODING",
+      "title": "Hitop CLONE CODING",
       "desc": "PC / MOBILE 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
       "skill": "html / scss / jQuery / adpative web / gsap / php ...",
       "period": "1weeks",
@@ -21,7 +21,7 @@
     },
     {
       "img": "neoforet.png",
-      "title": "neoforet CLONE CODING",
+      "title": "Neoforet CLONE CODING",
       "desc": "PC / MOBILE 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
       "skill": "html / scss / jQuery / adpative web / gsap / php ...",
       "period": "1weeks",
@@ -30,21 +30,39 @@
     },
     {
       "img": "famoussaying.png",
-      "title": "famous saying",
+      "title": "Famous saying",
       "desc": "perspective 를 이용한 명언 보여주기",
       "skill": "html / scss / jQuery / gsap ...",
       "period": "1 day",
       "category": "toyproject",
-      "link": "https://jjang051.github.io/cube/html/index03.html"
+      "link": "https://soonla.github.io/cube/html/index03"
     },
     {
       "img": "supermario.png",
-      "title": "supermario",
+      "title": "SuperMario",
       "desc": "swiper js와 ajax를 이용한 이미지 갤러리",
       "skill": "html / scss / jQuery / ajax / swiper / gsap ...",
       "period": "1 day",
       "category": "toyproject",
-      "link": "https://jjang051.github.io/ssupermario/html/"
+      "link": "https://soonla.github.io/supermario/html/index"
+    },
+    {
+      "img": "word-relay.png",
+      "title": "Word-Relay",
+      "desc": "",
+      "skill": "html / scss /  api / js ...",
+      "period": "1 day",
+      "category": "toyproject",
+      "link": "https://soonla.github.io/word-relay/html/index"
+    },
+    {
+      "img": "corona.png",
+      "title": "Corona",
+      "desc": "html과 api, js를 이용한 코로나 확진자 수 확인",
+      "skill": "html / scss /  api / js  ...",
+      "period": "2 days",
+      "category": "toyproject",
+      "link": "https://soonla.github.io/corona/html/index/"
     }
   ]
 }
