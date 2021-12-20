@@ -112,6 +112,9 @@
 
 #skill {
   padding-top: 100px !important;
+  .contents {
+    padding-top: 100px;
+  }
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +125,7 @@
       justify-content: center;
       align-items: center;
       font-size: 24px;
-      border: 10px solid #ccc;
+      //border: 10px solid #ccc;
       border-radius: 100%;
       width: 200px;
       height: 200px;
@@ -133,6 +136,7 @@
         position: absolute;
         left: 50%;
         top: 50%;
+        width:100%;
         transform: translate(-50%, -50%);
         dd {
           font-size: 42px;
@@ -154,8 +158,21 @@
             stroke-width: 10px;
             stroke: #111;
             stroke-linecap: round;
+            
+          }
+          &.line {
+            z-index: 2;
             stroke-dasharray: 570;
             stroke-dashoffset: -570;
+          }
+          &.bg {
+            position: absolute;
+            left:0;
+            top:0;
+            circle {
+              
+              stroke: #ccc;
+            }
           }
         }
       }

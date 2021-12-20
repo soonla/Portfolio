@@ -4,7 +4,7 @@ const typed = new Typed(".typing .txt", {
     "i am little <strong>slow</strong>",
     "but, try <strong>steadily</strong>",
     "I want to be a <strong>full stack developer</strong>.",
-    "my name is <strong>Lee sung kyu</strong>",
+    "my name is <strong>Sung gyu</strong>",
     "keep an <strong>eyes on me.</strong>",
   ],
   typeSpeed: 50,
@@ -131,7 +131,7 @@ skillTL
     "circleStart"
   )
   .to(
-    "#skill ul li:nth-child(1) circle ",
+    "#skill ul li:nth-child(1) .line circle ",
     {
       strokeDashoffset: 0,
       ease: "linear",
@@ -140,7 +140,7 @@ skillTL
     "circleStart+=1"
   )
   .to(
-    "#skill ul li:nth-child(2) circle ",
+    "#skill ul li:nth-child(2) .line circle ",
     {
       strokeDashoffset: -570 * 0.15,
       ease: "linear",
@@ -149,7 +149,7 @@ skillTL
     "circleStart+=1"
   )
   .to(
-    "#skill ul li:nth-child(3) circle ",
+    "#skill ul li:nth-child(3) .line circle ",
     {
       strokeDashoffset: -570 * 0.2,
       ease: "linear",
@@ -158,7 +158,7 @@ skillTL
     "circleStart+=1"
   )
   .to(
-    "#skill ul li:nth-child(4) circle ",
+    "#skill ul li:nth-child(4) .line circle ",
     {
       strokeDashoffset: -570 * 0.3,
       ease: "linear",
@@ -167,7 +167,7 @@ skillTL
     "circleStart+=1"
   )
   .to(
-    "#skill ul li:nth-child(5) circle ",
+    "#skill ul li:nth-child(5) .line circle ",
     {
       strokeDashoffset: -570 * 0.3,
       ease: "linear",
@@ -176,7 +176,7 @@ skillTL
     "circleStart+=1"
   )
   .to(
-    "#skill ul li:nth-child(6) circle ",
+    "#skill ul li:nth-child(6) .line circle ",
     {
       strokeDashoffset: -570 * 0.4,
       ease: "linear",

@@ -32,11 +32,13 @@
 
 #skill { padding-top: 100px !important; }
 
+#skill .contents { padding-top: 100px; }
+
 #skill ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-#skill ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 24px; border: 10px solid #ccc; border-radius: 100%; width: 200px; height: 200px; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 10px; text-align: center; }
+#skill ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 24px; border-radius: 100%; width: 200px; height: 200px; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 10px; text-align: center; }
 
-#skill ul li dl { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+#skill ul li dl { position: absolute; left: 50%; top: 50%; width: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 #skill ul li dl dd { font-size: 42px; }
 
@@ -46,7 +48,13 @@
 
 #skill ul li .round svg { width: 200px; height: 200px; position: relative; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); }
 
-#skill ul li .round svg circle { fill: transparent; stroke-width: 10px; stroke: #111; stroke-linecap: round; stroke-dasharray: 570; stroke-dashoffset: -570; }
+#skill ul li .round svg circle { fill: transparent; stroke-width: 10px; stroke: #111; stroke-linecap: round; }
+
+#skill ul li .round svg.line { z-index: 2; stroke-dasharray: 570; stroke-dashoffset: -570; }
+
+#skill ul li .round svg.bg { position: absolute; left: 0; top: 0; }
+
+#skill ul li .round svg.bg circle { stroke: #ccc; }
 
 #portfolio { padding-top: 100px !important; }
 
