@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=1920px, initial-scale=1.0" /> 넓이를 강제로 고정 -->
+    <title>Hi MY NAME IS LEE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=PT+Serif:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/splitting.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.css" />
+    <link rel="stylesheet" href="../css/fullpage.css" />
+    <link rel="stylesheet" href="../css/fancybox.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/js.cookie.min.js"></script>
+    <script src="../js/splitting.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/gsap/gsap.min.js"></script>
+    <script src="../js/gsap/CSSRulePlugin.min.js"></script>
+    <script src="../js/gsap/ScrollTrigger.min.js"></script>
+    <script src="../js/fullpage.min.js"></script>
+    <script src="../js/fullpage.extensions.min.js"></script>
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/particles.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/fancybox.umd.js"></script>
+    <script src="../js/typed.min.js"></script>
+    <script src="../js/main.js" defer></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 id="logo"></h1>
+      <button class="all">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <div class="wrap">
+      <div id="intro">
+        <div class="typing">
+          <span class="txt"></span>
+        </div>
+        <div class="video"><video src="../video/coding.mp4" muted autoplay loop></video></div>
+      </div>
+      <div class="contentsWrap">
+        <section id="profile" class="section" data-splitting>
+          <h2>profile</h2>
+          <div class="contents">
+            <ul>
+              <li>
+                <dl>
+                  <dt>name<span class="seperation">:</span></dt>
+                  <dd>Lee sung kyu</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>nick name<span class="seperation">:</span></dt>
+                  <dd>Punch king</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>birth<span class="seperation">:</span></dt>
+                  <dd>1900.00.00</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>e-mail<span class="seperation">:</span></dt>
+                  <dd>treelee96@naver.com</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>tel<span class="seperation">:</span></dt>
+                  <dd>010-0000-0000</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>addr<span class="seperation">:</span></dt>
+                  <dd>MyHome</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>motto<span class="seperation">:</span></dt>
+                  <dd>If not now, then when?</dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="career" class="section" data-splitting>
+          <h2>career</h2>
+          <div class="contents">
+            <ul>
+              <li>
+                <dl>
+                  <dt>2021~<span class="seperation">:</span></dt>
+                  <dd>TIS Education ( lecturer )</dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="skill" class="section" data-splitting>
+          <h2>skill</h2>
+          <div class="contents">
+            <ul>
+              <li>
+                <dl>
+                  <dt>MARKUP</dt>
+                  <dd><span class="num" data-percent="100">100</span><span class="unit">%</span></dd>
+                </dl>
+                <div class="round">
+                  <svg>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <dl>
+                  <dt>CSS/SCSS</dt>
+                  <dd><span class="num" data-percent="85">90</span><span class="unit">%</span></dd>
+                </dl>
+                <div class="round">
+                  <svg>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <dl>
+                  <dt>JAVSCRIPT</dt>
+                  <dd><span class="num" data-percent="80">80</span><span class="unit">%</span></dd>
+                </dl>
+                <div class="round">
+                  <svg>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <dl>
+                  <dt>NODE JS</dt>
+                  <dd><span class="num" data-percent="70">70</span><span class="unit">%</span></dd>
+                </dl>
+                <div class="round">
+                  <svg>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <dl>
+                  <dt>JAVA</dt>
+                  <dd><span class="num" data-percent="70">75</span><span class="unit">%</span></dd>
+                </dl>
+                <div class="round">
+                  <svg>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <dl>
+                  <dt>SPRING</dt>
+                  <dd><span class="num" data-percent="60">65</span><span class="unit">%</span></dd>
+                </dl>
+                <div class="round">
+                  <svg>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="portfolio" class="section" data-splitting>
+          <h2>portfolio</h2>
+          <div class="contents">
+            <main id="main">
+              <nav id="filter">
+                <h2 class="hidden">filtering menu</h2>
+                <ul>
+                  <li class="on" data-filter="item">ALL</li>
+                  <li data-filter="web">WEB</li>
+                  <li data-filter="toyproject">TOYPROJECT</li>
+                  <li data-filter="sketch">SKETCH</li>
+                </ul>
+              </nav>
+              <div id="works">
+                <ul class="itemList">
+                  <li class="item category">
+                    <a href="title">
+                      <div class="img">
+                        <img src="" alt="" />
+                      </div>
+                      <div class="info">
+                        <h2>title</h2>
+                        <p class="desc">설명</p>
+                        <p class="point">
+                          <span>점수</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </main>
+          </div>
+        </section>
+        <section id="contact" class="section" data-splitting>
+          <h2>contact</h2>
+          <div class="contents">
+            <div class="formWrap">
+              <ul>
+                <li>
+                  <dl>
+                    <dt>C.P<span class="seperation">:</span></dt>
+                    <dd>010-0000-0000</dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>e-mail<span class="seperation">:</span></dt>
+                    <dd>treelee96@naver.com</dd>
+                  </dl>
+                </li>
+              </ul>
+              <form action="http://www.daum.net" method="POST">
+                <div class="inputWrap">
+                  <label><input type="text" name="title" placeholder="제목을 입력하세요." /></label>
+                </div>
+                <div class="inputWrap">
+                  <label><input type="text" name="email" placeholder="연락받을 이메일을 입력하세요." /></label>
+                </div>
+                <div class="inputWrap">
+                  <label><textarea name="contents" placeholder="문의하실 내용을 입력해 주세요."></textarea></label>
+                </div>
+                <div class="btns"><button type="submit">SEND</button></div>
+                <!-- <input type="submit" value="보내기"> -->
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer id="footer">
+      <p>all copyright reserved by <strong>Soonla's media lab</strong></p>
+    </footer>
+  </body>
+</html>

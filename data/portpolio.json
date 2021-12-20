@@ -1,0 +1,50 @@
+{
+  "imageFolder": "../images/",
+  "portfolioList": [
+    {
+      "img": "dkg.png",
+      "title": "DKG CLONE CODING",
+      "desc": "full page 를 이용한 부동산 전문회사 LANDING page 제작",
+      "skill": "html / scss / jQuery / fullpage js / gsap ...",
+      "period": "1weeks",
+      "category": "web",
+      "link": "https://jjang051.github.io/dkg/html/index.html"
+    },
+    {
+      "img": "hitop.png",
+      "title": "hitop CLONE CODING",
+      "desc": "PC / MOBILE 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
+      "skill": "html / scss / jQuery / adpative web / gsap / php ...",
+      "period": "1weeks",
+      "category": "web",
+      "link": "http://tisjjang.dothome.co.kr/hitop/"
+    },
+    {
+      "img": "neoforet.png",
+      "title": "neoforet CLONE CODING",
+      "desc": "PC / MOBILE 접속 여부에 따라 화면이 다르게 보이는 적응형 웹",
+      "skill": "html / scss / jQuery / adpative web / gsap / php ...",
+      "period": "1weeks",
+      "category": "web",
+      "link": "http://tisjjang.dothome.co.kr/neoforet/"
+    },
+    {
+      "img": "famoussaying.png",
+      "title": "famous saying",
+      "desc": "perspective 를 이용한 명언 보여주기",
+      "skill": "html / scss / jQuery / gsap ...",
+      "period": "1 day",
+      "category": "toyproject",
+      "link": "https://jjang051.github.io/cube/html/index03.html"
+    },
+    {
+      "img": "supermario.png",
+      "title": "supermario",
+      "desc": "swiper js와 ajax를 이용한 이미지 갤러리",
+      "skill": "html / scss / jQuery / ajax / swiper / gsap ...",
+      "period": "1 day",
+      "category": "toyproject",
+      "link": "https://jjang051.github.io/ssupermario/html/"
+    }
+  ]
+}
